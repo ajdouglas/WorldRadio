@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingTop="0dp"
-        tools:context="middletownmusic.org.midwestradio.middletownmusic.org.worldRadio.MainActivity">
+        tools:context="worldradio.org.midwestradio.middletownmusic.org.worldRadio.MainActivity">
 
         <RelativeLayout
             android:id="@+id/header"

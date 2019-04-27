@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:padding="10sp">
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/long_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
             android:textSize="27sp" />
 
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:layout_below="@+id/long_name"
             android:id="@+id/country"
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:text="Country:"
             android:textSize="17sp" />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:layout_below="@+id/country"
             android:id="@+id/genre"
             android:layout_width="match_parent"
@@ -41,7 +41,7 @@
             android:text="Genre: "
             android:textSize="17sp" />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:layout_below="@+id/genre"
             android:id="@+id/website"
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             android:text="Website:"
             android:textSize="17sp" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:layout_below="@+id/website"
             android:id="@+id/playButton"
             android:layout_width="fill_parent"

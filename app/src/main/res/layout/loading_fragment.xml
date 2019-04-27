@@ -75,7 +75,7 @@
                 app:srcCompat="@drawable/music_note" />
         </LinearLayout>
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/loading_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

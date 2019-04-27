@@ -24,7 +24,7 @@
             android:layout_toEndOf="@+id/short_name"
             android:layout_marginTop="6dp" />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/short_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
 
     </RelativeLayout>
 
-    <middletownmusic.org.worldRadio.utils.RadioTextView
+    <worldradio.org.worldRadio.utils.RadioTextView
         android:id="@+id/frequency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <middletownmusic.org.worldRadio.utils.RadioTextView
+            <worldradio.org.worldRadio.utils.RadioTextView
                 android:id="@+id/description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:textSize="20sp"
                 tools:text="Some Super long text description Some Super description" />
 
-            <middletownmusic.org.worldRadio.utils.RadioTextView
+            <worldradio.org.worldRadio.utils.RadioTextView
                 android:id="@+id/genre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                 android:textSize="20sp"
                 tools:text="Genre: Reggaeton" />
 
-            <middletownmusic.org.worldRadio.utils.RadioTextView
+            <worldradio.org.worldRadio.utils.RadioTextView
                 android:id="@+id/type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
         android:layout_above="@+id/linearLayout3"
         android:orientation="horizontal">
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/playButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
             android:textColor="@color/black"
             android:text="@string/play" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/stopButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
         android:orientation="horizontal"
         android:id="@+id/linearLayout3">
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/previous_scan"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
             android:textSize="20sp"
             android:text="@string/scan_left" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/previous"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
             android:textSize="20sp"
             android:text="@string/less_than" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/next"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
             android:textSize="20sp"
             android:text="@string/greater" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/next_scan"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -193,7 +193,7 @@
         android:orientation="horizontal"
         android:id="@+id/linearLayout2">
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/button1"
             android:textColor="@color/black"
             android:layout_width="0px"
@@ -202,7 +202,7 @@
             android:layout_weight="1"
             android:text="@string/_1" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/button2"
             android:textColor="@color/black"
             android:layout_width="0px"
@@ -211,7 +211,7 @@
             android:layout_weight="1"
             android:text="@string/_2" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/button3"
             android:textColor="@color/black"
             android:layout_width="0px"
@@ -230,7 +230,7 @@
         android:layout_alignParentStart="true"
         android:id="@+id/linearLayout">
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/button4"
             android:textColor="@color/black"
             android:layout_width="0px"
@@ -239,7 +239,7 @@
             android:background="@drawable/button_border"
             android:text="@string/_4" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/button5"
             android:textColor="@color/black"
             android:layout_width="0px"
@@ -248,7 +248,7 @@
             android:layout_weight="1"
             android:text="@string/_5" />
 
-        <middletownmusic.org.worldRadio.utils.RadioButton
+        <worldradio.org.worldRadio.utils.RadioButton
             android:id="@+id/button6"
             android:textColor="@color/black"
             android:layout_width="0px"
@@ -258,12 +258,12 @@
             android:text="@string/_6" />
     </LinearLayout>
 
-    <middletownmusic.org.worldRadio.utils.RadioTextView
+    <worldradio.org.worldRadio.utils.RadioTextView
         android:id="@+id/location"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:visibility="gone">
-    </middletownmusic.org.worldRadio.utils.RadioTextView>
+    </worldradio.org.worldRadio.utils.RadioTextView>
 
 
 </RelativeLayout>

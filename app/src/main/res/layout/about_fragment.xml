@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:padding="20sp"
             android:id="@+id/purple_calves"
             android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
             android:gravity="center"
             />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/contributions_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:textAlignment="center"
             android:textSize="25sp" />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:padding="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
             android:textAlignment="center"
             android:gravity="center"
             />
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:padding="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             android:gravity="center"
             />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:padding="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             android:gravity="center"
             />
 
-        <middletownmusic.org.worldRadio.utils.RadioTextView
+        <worldradio.org.worldRadio.utils.RadioTextView
             android:padding="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

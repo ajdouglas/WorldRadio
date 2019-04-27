@@ -25,7 +25,7 @@ public class DrawerUtils {
 
     public static class DrawerAdapter extends BaseAdapter {
         private Context context;
-        private static final String[] NAV_TITLES = {"All Stations", "About", "World Radio", "Submit a Station", "Report a Station"};
+        private static final String[] NAV_TITLES = {"All Stations", "About", "Submit a Station", "Report a Station"};
         private static final int[] NAV_ICONS = { R.drawable.radio_icon, R.drawable.setup_icon,  R.drawable.web_icon, R.drawable.web_icon, R.drawable.web_icon};
         private DrawerItem[] drawerItems;
         private int count;

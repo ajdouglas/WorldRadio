@@ -206,9 +206,9 @@ public class RadioFragment extends Fragment{
 
     private void setStationInformation(int index){
         shortName.setText(currentStations.get(index).getShort_name());
-        genre.setText(("Genre: " + currentStations.get(index).getGenre()));
+        genre.setText((currentStations.get(index).getGenre()));
         //change type to country variable
-        type.setText(("Country: " + currentStations.get(index).getCountry()));
+        type.setText((currentStations.get(index).getCountry()));
         webButton = getView().findViewById(R.id.websiteImageButton);
         if(currentStations.get(index).getWebsite().length() > 3){
             webButton.setOnClickListener(view -> {
@@ -364,16 +364,40 @@ public class RadioFragment extends Fragment{
         isPlaying = false;
     }
 
+    private void next_stop()
+    {
+        isScanning = false;
+        audioService.stopPlaying();
+        stopScanning();
+        isPlaying = false;
+    }
+
     private void nextStation(boolean isCalledFromScan){
-        if(currentStation != currentStations.size()-1){
-            currentStation++;
-        }else{
-            currentStation = 0;
+        if (isPlaying == true) {
+            next_stop();
+            if(currentStation != currentStations.size()-1){
+                currentStation++;
+            }else{
+                currentStation = 0;
+            }
+            setStationInformation(currentStation);
+            if(!isCalledFromScan){
+                stopScanning();
+                flashGreen(nextButton);
+            }
+            play(false);
         }
-        setStationInformation(currentStation);
-        if(!isCalledFromScan){
-            stopScanning();
-            flashGreen(nextButton);
+        else {
+            if (currentStation != currentStations.size() - 1) {
+                currentStation++;
+            } else {
+                currentStation = 0;
+            }
+            setStationInformation(currentStation);
+            if (!isCalledFromScan) {
+                stopScanning();
+                flashGreen(nextButton);
+            }
         }
     }
 
@@ -416,15 +440,31 @@ public class RadioFragment extends Fragment{
     }
 
     private void previousStation(boolean isCalledFromScan){
-        if(currentStation != 0){
-            currentStation--;
-        }else{
-            currentStation = currentStations.size()-1;
+        if (isPlaying == true) {
+            next_stop();
+            if (currentStation != 0) {
+                currentStation--;
+            } else {
+                currentStation = currentStations.size() - 1;
+            }
+            setStationInformation(currentStation);
+            if (!isCalledFromScan) {
+                stopScanning();
+                flashGreen(previousButton);
+            }
+            play(false);
         }
-        setStationInformation(currentStation);
-        if(!isCalledFromScan){
-            stopScanning();
-            flashGreen(previousButton);
+        else{
+            if (currentStation != 0) {
+                currentStation--;
+            } else {
+                currentStation = currentStations.size() - 1;
+            }
+            setStationInformation(currentStation);
+            if (!isCalledFromScan) {
+                stopScanning();
+                flashGreen(previousButton);
+            }
         }
     }
 

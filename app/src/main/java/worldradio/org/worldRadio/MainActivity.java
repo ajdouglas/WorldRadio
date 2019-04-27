@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements DrawerUtils.Drawe
                 drawerLayout.closeDrawer(drawer);
                 break;
             case "MiddletownMusic":
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.middletownmusic.org/"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
                 startActivity(browserIntent);
                 break;
             case "Submit a Station":

@@ -16,26 +16,27 @@
 
         <ImageButton
             android:id="@+id/websiteImageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="7dp"
             android:background="@null"
-            app:srcCompat="@drawable/web_icon"
-            android:layout_alignBottom="@+id/short_name"
-            android:layout_toRightOf="@+id/short_name"
-            android:layout_toEndOf="@+id/short_name" />
+            app:srcCompat="@drawable/web_icon" />
 
         <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/short_name"
-            android:layout_width="wrap_content"
+            android:layout_width="441dp"
             android:layout_height="wrap_content"
-            android:enabled="true"
-            android:textSize="30sp"
-            android:textColor="@color/black"
-            tools:text="WCRD"
-            android:gravity="center_horizontal"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginBottom="208dp"
+            android:enabled="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            tools:text="WCRD" />
 
         <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/frequency"
@@ -51,7 +52,7 @@
             android:id="@+id/location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="City, State"
+            tools:text=""
             android:textSize="20sp"
             android:textColor="@color/black"
             android:layout_alignParentRight="true"
@@ -65,36 +66,50 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:text="some description thing"
+        tools:text=""
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true" />
 
     <worldradio.org.worldRadio.utils.RadioTextView
         android:id="@+id/genre"
-        android:layout_width="wrap_content"
+        android:layout_width="440dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/description"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
+        android:paddingStart="40dp"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
-        android:paddingStart="40dp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:text="Genre: Reggaeton" />
+        tools:text="Placeholder Genre" />
 
     <worldradio.org.worldRadio.utils.RadioTextView
         android:id="@+id/type"
-        android:layout_width="wrap_content"
+        android:layout_width="442dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/genre"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        tools:text="Type: Commercial" />
+        android:textSize="28sp"
+        tools:text="Placeholder Country" />
 
     <LinearLayout
         android:layout_width="match_parent"

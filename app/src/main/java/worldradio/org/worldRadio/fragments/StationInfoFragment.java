@@ -23,6 +23,7 @@ public class StationInfoFragment extends DialogFragment {
     TextView longName;
     TextView shortName;
     TextView genre;
+    TextView country;
     TextView website;
     Button playButton;
     private AdapterCallback changeStationCallback;
@@ -55,7 +56,8 @@ public class StationInfoFragment extends DialogFragment {
 
         shortName = getView().findViewById(R.id.short_name);
 
-
+        country = getView().findViewById(R.id.country);
+        country.setText(String.format("Country: %s", station.getCountry()));
 
 
 

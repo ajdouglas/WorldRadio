@@ -32,12 +32,12 @@
     <string name="error1">There was an error retrieving the application data</string>
     <string name="scan_left"><![CDATA[<<]]></string>
     <string name="scan_right"><![CDATA[>>]]></string>
-    <string name="purple_calves">Brought to you by Dr. Robert Wiley and <u>www.purplecalves.com</u></string>
-    <string name="contributions_by">Contributions by:</string>
-    <string name="Ashley_Douglas_android">Ashley Douglas</string>
-    <string name="Evan_Baker_database">Evan Baker</string>
-    <string name="Nolan_Sliger_android">Nolan Sliger</string>
-    <string name="Alexandria_Southern_front_end">Alexandria Southern</string>
+    <string name="purple_calves">Concept by Robert Wiley <u>www.purplecalves.com</u></string>
+    <string name="contributions_by">Developed by:</string>
+    <string name="Ashley_Douglas_android">Ashley Douglas - Android Development</string>
+    <string name="Evan_Baker_database">Evan Baker - Database, Web Development</string>
+    <string name="Nolan_Sliger_android">Nolan Sliger - Android Development</string>
+    <string name="Alexandria_Southern_front_end">Alexandria Southern - Graphics, Android Development</string>
     <string name="name">Name:</string>
     <string name="country">Country:</string>
 

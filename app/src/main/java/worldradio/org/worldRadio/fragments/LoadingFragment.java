@@ -43,7 +43,7 @@ public class LoadingFragment extends Fragment {
         leftTriangle = view.findViewById(R.id.left_triangle);
         rightTriangle = view.findViewById(R.id.right_triangle);
         headphones = view.findViewById(R.id.headphones);
-        headphoneMiddle = view.findViewById(R.id.mwm);
+        headphoneMiddle = view.findViewById(R.id.world);
         return view;
     }
 

@@ -90,8 +90,6 @@ public class RadioFragment extends Fragment{
         nextButton = getView().findViewById(R.id.next);
         previousButton = getView().findViewById(R.id.previous);
         shortName = getView().findViewById(R.id.short_name);
-
-
         genre = getView().findViewById(R.id.genre);
         type = getView().findViewById(R.id.type);
         oneButton = getView().findViewById(R.id.button1);
@@ -373,7 +371,7 @@ public class RadioFragment extends Fragment{
     }
 
     private void nextStation(boolean isCalledFromScan){
-        if (isPlaying == true) {
+        if (isPlaying) {
             next_stop();
             if(currentStation != currentStations.size()-1){
                 currentStation++;
@@ -440,7 +438,7 @@ public class RadioFragment extends Fragment{
     }
 
     private void previousStation(boolean isCalledFromScan){
-        if (isPlaying == true) {
+        if (isPlaying) {
             next_stop();
             if (currentStation != 0) {
                 currentStation--;

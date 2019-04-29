@@ -45,7 +45,7 @@
                 android:layout_weight=".5"
                 android:id="@+id/loading_image">
                 <ImageView
-                    android:id="@+id/mwm"
+                    android:id="@+id/world"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"

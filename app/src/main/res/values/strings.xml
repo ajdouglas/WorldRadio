@@ -22,6 +22,7 @@
     <string name="list_help">This screen shows you all stations in the radio application. If you click on one of the stations, a pop up will
         show up with all the information on that station. You can then click ‘Play’ if you would like that station to begin playing in your radio,
         or click the back button to go back to the list of all stations.</string>
+    <string name="loading_help">This is the loading screen. If the radio does not load, please check your internet connection and close the app and open it again.</string>
     <string name="back"><![CDATA[< Back]]></string>
     <string name="uh_oh_no_internet_connectivity_was_detected">Uh Oh! No internet connectivity was detected.</string>
     <string name="loading">Loading</string>

@@ -27,6 +27,8 @@ public class HelpFragment extends DialogFragment {
             case "station":
                 helpText.setText(R.string.list_help);
                 break;
+            case "loading":
+                helpText.setText(R.string.loading_help);
         }
         return view;
     }

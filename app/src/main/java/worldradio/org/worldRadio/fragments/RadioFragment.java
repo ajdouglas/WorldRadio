@@ -48,7 +48,7 @@ public class RadioFragment extends Fragment{
     private ImageButton webButton;
     private TextView shortName;
     private TextView genre;
-    private TextView type;
+    private TextView country;
     private int currentStation = 0;
     private int currentPlayingStation;
     ArrayList<Station> currentStations;
@@ -91,7 +91,7 @@ public class RadioFragment extends Fragment{
         previousButton = getView().findViewById(R.id.previous);
         shortName = getView().findViewById(R.id.short_name);
         genre = getView().findViewById(R.id.genre);
-        type = getView().findViewById(R.id.type);
+        country = getView().findViewById(R.id.country);
         oneButton = getView().findViewById(R.id.button1);
         twoButton = getView().findViewById(R.id.button2);
         threeButton = getView().findViewById(R.id.button3);
@@ -205,8 +205,7 @@ public class RadioFragment extends Fragment{
     private void setStationInformation(int index){
         shortName.setText(currentStations.get(index).getShort_name());
         genre.setText((currentStations.get(index).getGenre()));
-        //change type to country variable
-        type.setText((currentStations.get(index).getCountry()));
+        country.setText((currentStations.get(index).getCountry()));
         webButton = getView().findViewById(R.id.websiteImageButton);
         if(currentStations.get(index).getWebsite().length() > 3){
             webButton.setOnClickListener(view -> {

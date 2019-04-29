@@ -36,8 +36,8 @@
             android:gravity="center_horizontal"
             android:textColor="@color/black"
             android:textSize="30sp"
-            tools:text="WCRD" />
-
+            tools:text="StationName Placeholder" />
+        <!--Frequency must be deleted but cannot without messing with spacing-->
         <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/frequency"
             android:layout_width="wrap_content"
@@ -48,6 +48,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
+        <!--location must be deleted but cannot without messing with spacing-->
         <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/location"
             android:layout_width="wrap_content"
@@ -59,6 +60,7 @@
             android:layout_alignParentEnd="true" />
     </RelativeLayout>
 
+    <!--description must be deleted but cannot without messing with spacing-->
     <worldradio.org.worldRadio.utils.RadioTextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
@@ -92,8 +94,9 @@
         android:textSize="20sp"
         tools:text="Placeholder Genre" />
 
+    <!--Type must be changed but cannot without crashing-->
     <worldradio.org.worldRadio.utils.RadioTextView
-        android:id="@+id/type"
+        android:id="@+id/country"
         android:layout_width="442dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

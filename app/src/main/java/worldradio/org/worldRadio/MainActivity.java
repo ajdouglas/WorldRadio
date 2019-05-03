@@ -18,7 +18,16 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.common.GooglePlayServicesRepairableException;
+import com.google.android.gms.security.ProviderInstaller;
+
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+
+import javax.net.ssl.SSLContext;
 
 import worldradio.org.midwestradio.R;
 import worldradio.org.worldRadio.fragments.AboutFragment;
@@ -61,6 +70,19 @@ public class MainActivity extends AppCompatActivity implements DrawerUtils.Drawe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //tryCatch to fix older devices not connecting to internet by Mayur Gangurde on Stack Overflow
+        try {
+            ProviderInstaller.installIfNeeded(getApplicationContext());
+            SSLContext sslContext;
+            sslContext = SSLContext.getInstance("TLSv1.2");
+            sslContext.init(null, null, null);
+            sslContext.createSSLEngine();
+        } catch (GooglePlayServicesRepairableException | GooglePlayServicesNotAvailableException
+                | NoSuchAlgorithmException | KeyManagementException e) {
+            e.printStackTrace();
+        }
+
         super.onCreate(savedInstanceState);
         if(savedInstanceState != null){
             allStations = savedInstanceState.getParcelableArrayList("stations");

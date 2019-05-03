@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
+        buildToolsVersion "25.0.2"
         applicationId "worldradio.org.worldRadio"
         minSdkVersion 16
         targetSdkVersion 26

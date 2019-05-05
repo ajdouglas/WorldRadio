@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 public class Requests {
 
     //The following String variables should be changed to your own API endpoints
-    private static final String BASE_URL = "https:willshare.com/cs495/WRP/";
+    private static final String BASE_URL = "https://willshare.com/cs495/WRP/";
     private static final String GET_STATIONS = "GetAllApplicationData.php";
     private static final String POST_VOTE = "Vote.php";
 

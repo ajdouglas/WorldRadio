@@ -7,10 +7,9 @@ android {
         applicationId "worldradio.org.worldRadio"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 5
-        versionName '3.0'
+        versionCode 9
+        versionName '5.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
     buildTypes {
         release {
@@ -22,8 +21,8 @@ android {
         exclude 'META-INF/LICENSE'
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility '1.8'
+        targetCompatibility '1.8'
     }
     productFlavors {
     }

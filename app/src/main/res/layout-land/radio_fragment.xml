@@ -16,6 +16,20 @@
         android:layout_marginLeft="0dp"
         android:gravity="top|center_horizontal">
 
+        <ImageButton
+            android:id="@+id/websiteImageButton"
+            android:layout_width="127dp"
+            android:layout_height="59dp"
+            android:layout_alignEnd="@+id/short_name"
+            android:layout_alignRight="@+id/short_name"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="-157dp"
+            android:layout_marginRight="-157dp"
+            android:layout_marginBottom="4dp"
+            android:background="@null"
+            app:srcCompat="@drawable/web_icon" />
+
         <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/short_name"
             android:layout_width="wrap_content"
@@ -37,12 +51,6 @@
             android:textSize="30sp"
             tools:text="StationName Placeholder" />
 
-        <ImageButton
-            android:id="@+id/websiteImageButton"
-            android:layout_width="0dp"
-            android:layout_height="7dp"
-            android:background="@null"
-            app:srcCompat="@drawable/web_icon" />
 
     </RelativeLayout>
 
@@ -69,7 +77,7 @@
 
     <worldradio.org.worldRadio.utils.RadioTextView
         android:id="@+id/genre"
-        android:layout_width="442dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout3"
         android:layout_alignParentStart="true"

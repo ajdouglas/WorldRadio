@@ -22,7 +22,8 @@
             android:layout_alignTop="@+id/short_name"
             android:layout_toRightOf="@+id/short_name"
             android:layout_toEndOf="@+id/short_name"
-            android:layout_marginTop="6dp" />
+            android:layout_marginTop="6dp"
+            />
 
         <worldradio.org.worldRadio.utils.RadioTextView
             android:id="@+id/short_name"

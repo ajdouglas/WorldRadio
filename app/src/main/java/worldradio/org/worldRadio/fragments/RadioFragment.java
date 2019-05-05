@@ -207,13 +207,15 @@ public class RadioFragment extends Fragment{
         genre.setText((currentStations.get(index).getGenre()));
         country.setText((currentStations.get(index).getCountry()));
         webButton = getView().findViewById(R.id.websiteImageButton);
+        webButton.setVisibility(View.VISIBLE);
         if(currentStations.get(index).getWebsite().length() > 3){
             webButton.setOnClickListener(view -> {
+                webButton.setVisibility(View.VISIBLE);
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(currentStations.get(index).getWebsite()));
                 startActivity(browserIntent);
             });
         }else{
-            webButton.setVisibility(View.GONE);
+            webButton.setVisibility(View.INVISIBLE);
         }
     }
 

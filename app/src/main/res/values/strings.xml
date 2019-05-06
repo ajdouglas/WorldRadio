@@ -14,11 +14,12 @@
     <string name="greater"><![CDATA[>]]></string>
     <string name="all_stations">All Stations</string>
     <string name="help">Help</string>
-    <string name="radio_help">On this screen, you can play the radio, save preset stations, and scan stations.\nIn order to save a station to
+    <string name="radio_help">On this screen, you can play the radio, save preset stations, and scan stations. We hope you\'ll rotate
+        your phone to landscape mode so that the interface looks like the screen of a car radio. \n\nIn order to save a station to
         a preset area, pull up the station you would like to save and then long hold in the preset area you want to save it to.
-        \n\nThe single and double arrows are how you switch stations.If you click on the single arrows, the next station will be shown.
+        \n\nThe single and double arrows are how you switch stations. If you click on the single arrows, the next station will be shown.
         If you click on one of the double arrows the radio will scan in that direction, switching every 5 seconds. It will continue
-        scanning until you click another option.</string>
+        scanning until you click another option. \n\nClicking on the globe icon will open a website associated with the station.</string>
     <string name="list_help">This screen shows you all stations in the radio application. If you click on one of the stations, a pop up will
         show up with all the information on that station. You can then click ‘Play’ if you would like that station to begin playing in your radio,
         or click the back button to go back to the list of all stations.</string>
